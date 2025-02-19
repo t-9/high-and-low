@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>High & Low ゲーム</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="game-container">
+    <h1>High & Low</h1>
+    <div id="score">スコア: 0</div>
+    <div class="card-area">
+      <div id="current-card" class="card">?</div>
+      <div id="next-card" class="card hidden">?</div>
+    </div>
+    <div class="buttons">
+      <button id="high-btn">High</button>
+      <button id="low-btn">Low</button>
+    </div>
+    <div id="message"></div>
+    <button id="restart-btn" class="hidden">もう一度遊ぶ</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
